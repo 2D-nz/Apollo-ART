@@ -1,0 +1,8 @@
+<svg width="202" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="101" cy="103" r="44.5" fill="black" stroke="white"/>
+<line x1="80" y1="118.5" x2="129" y2="118.5" stroke="white"/>
+<path d="M93.1356 118.716C93.1716 123.1 94.4136 127.294 96.5885 130.376C98.7634 133.458 101.693 135.175 104.733 135.15C107.772 135.125 110.673 133.36 112.797 130.243C114.921 127.126 116.094 122.912 116.058 118.528L104.597 118.622L93.1356 118.716Z" fill="white"/>
+<circle cx="80.5" cy="94.5" r="12.5" fill="white"/>
+<circle cx="117.5" cy="94.5" r="12.5" fill="white"/>
+<rect x="0.5" y="0.5" width="201" height="201" stroke="black" stroke-miterlimit="2.3662" stroke-linejoin="bevel"/>
+</svg>

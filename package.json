@@ -9,16 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.47.10",
+    "boxicons": "^2.1.4",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "motion": "^11.15.0",
+    "next": "14.2.6",
+    "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.6"
+    "react-firebase-hooks": "^5.1.1",
+    "react-hook-form": "^7.54.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.4.0",
+    "styled-components": "^6.1.12",
+    "tailwind-merge": "^2.5.2",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

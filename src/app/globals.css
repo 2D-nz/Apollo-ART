@@ -1,33 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("boxicons/css/boxicons.min.css");
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+input::selection {
+  background: #fff; /* WebKit/Blink Browsers */
+}
+input::-moz-selection {
+  background: #fff; /* Gecko Browsers */
+}
+/* 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 40rem #ffff inset;
+  font-family: auto;
+} */
